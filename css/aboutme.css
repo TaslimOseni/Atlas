@@ -2,90 +2,67 @@ body{
 	background-color: #232323;
 }
 
+
 h1{
-	color: #FFFFFF;
-	margin-left: 50px;
+	color: #FFA500;
+	font-size: 35px;
+}
+
+h2{
+	color: #00FF00;
 }
 
 a{
-	color: #d3d3d3;
-}
-
-img{
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-	margin-top: 20px
-}
-
-button{
-	background-color: #000000;
 	color: #FFFFFF;
-	vertical-align: middle;
-	margin-right: 20px;
 }
-
-#topbar{
-	height: 70px;
-	width: 100%;
-	margin: 0px;
-	font-size: 20px;
-	top: 0;
-	left: 0;
-	padding: 0px;
-	overflow: hidden;
-	position: fixed;
-	background-color: #000000;
-	vertical-align: middle;
-}
-
-#descripo{
-	text-align: center;
-	vertical-align: middle;
-	margin-top: 200px;
-	line-height: 40px;
-	font-weight: bold;
-	color: #ffffff;
-	font-size: 40px;
-}
-
-#skills, #projects, #contact{
-	margin-top: 250px;
-}
-
 
 .bio_text{
+	
+	color: #FFFFFF;
+	font-family: roboto;
 	font-size: 20px;
-	font-style: italic;
-	color: #FFA500;
-	margin-left: 200px;
-	margin-right: 200px;
-}
-
-ul{
-	font-size: 20px;
-	margin-left: 80px;
-	color: #00FF00;
-	line-height: 40px;
-	list-style-type: circle;
-}
-
-.socials{
-	text-align: center;
 }
 
 
-.skill_text{
-	font-size: 20px;
-	color: #FF0000;
-	margin-left: 200px;
-	margin-right: 200px;
-	text-align: center;
-	vertical-align: middle;
-	line-height: 40px;
-	font-weight: bold;
+.split{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
-#caption{
-	font-style: italic;
+
+
+.left{
+  left: 0;
+}
+
+
+.right{
+  right: 0;
+}
+
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.centered img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+.small_pic{
+	border-radius: 50%;
+	width: 30%;
+	max-width: 70px;
 }
